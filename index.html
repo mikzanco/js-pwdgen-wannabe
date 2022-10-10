@@ -13,13 +13,23 @@
     
     <title>js</title>
 </head>
-<body>
+<body class="p-5  bg-primary text-dark ">
+    <header >
+        <h1>Password Generatro</h1>
+    </header>
 
 
-    <div class="container">
-        <p>Scrivi le tue credenziali e le vedrai comparire qui sotto come una password super s</p>
-        <h1 id="user">Benvenuto su questa pagina Javascript.</h1>
-
+    <div class="container justify-content-center border-primary ">
+        <div class="card bg-primary" style="width: 18rem;">
+            <ul class="list-group bg-primary list-group-flush border-primary">
+              <li class="list-group-item">Nome: <span id="fisrtName"></span></li>
+              <li class="list-group-item">Cognome: <span id="lastName"></span></li>
+              <li class="list-group-item">Colore: <span id="color"></span></li>
+            </ul>
+            <div class="card-footer">
+              <p>La tu Password generata è <span id="user"></span></p>
+            </div>
+          </div>
     </div>
 
     <script src="js/scripy.js"></script>
